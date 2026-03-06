@@ -69,17 +69,14 @@ function Navbar() {
         {/* Logo */}
         <a
           href="#home"
-          className="flex items-center gap-3 group"
+          className="flex items-center group"
           data-ocid="nav.link"
         >
           <img
-            src="/assets/generated/tsg-logo-mark-transparent.dim_120x120.png"
-            alt="TSG"
-            className="h-9 w-9 object-contain"
+            src="/assets/generated/tsgp-consulting-logo.dim_800x400.png"
+            alt="TSGP Consulting"
+            className="h-10 object-contain"
           />
-          <span className="font-display font-bold text-white text-lg tracking-tight">
-            TSG <span className="text-gradient-gold">Consulting</span>
-          </span>
         </a>
 
         {/* Desktop nav */}
@@ -972,15 +969,12 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center mb-4">
               <img
-                src="/assets/generated/tsg-logo-mark-transparent.dim_120x120.png"
-                alt="TSG"
-                className="h-8 w-8 object-contain"
+                src="/assets/generated/tsgp-consulting-logo.dim_800x400.png"
+                alt="TSGP Consulting"
+                className="h-9 object-contain"
               />
-              <span className="font-display font-bold text-white text-lg">
-                TSGP Consulting
-              </span>
             </div>
             <p className="text-white/50 text-sm leading-relaxed">
               Your trusted manpower partner for NBFC, BFSI, and BPO sectors.
